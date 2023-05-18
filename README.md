@@ -1,6 +1,3 @@
-# blog-building-a-scalable-webhook-delivery-system-using-Kafka-SQS-S3
-Blog Post - Building a scalable webhook delivery system using Kafka, SQS &amp; S3
-
 # Building a scalable webhook delivery system using Kafka, SQS & S3
 
 As the world gets more and more connected, software applications are of course no exception. Apps need a way to have 2 or more completely separated systems share information.

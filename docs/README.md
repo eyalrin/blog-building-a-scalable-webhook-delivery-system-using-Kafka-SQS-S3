@@ -31,7 +31,7 @@ Right off the bat it was clear to us that our system would have 2 main tiers: Th
 ### The API Tier
 Used for registering and configuring webhooks. We decided to go for the most straightforward solution and have a REST API. The API can be used by an end user (the webhook subscriber) or by another application.
 
-![diagram 1 - API](./assets/images/API-unbranded.png)
+![diagram 1 - API](./assets/images/API-unbranded.png "API")
 
 The endpoints URL is structured as `[base-path]/webhooks/<entity>`.
 

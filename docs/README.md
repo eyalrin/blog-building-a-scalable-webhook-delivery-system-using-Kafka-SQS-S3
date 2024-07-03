@@ -31,7 +31,8 @@ Right off the bat it was clear to us that our system would have 2 main tiers: Th
 ### The API Tier
 Used for registering and configuring webhooks. We decided to go for the most straightforward solution and have a REST API. The API can be used by an end user (the webhook subscriber) or by another application.
 
-
+![Book logo](./assets/images/API-unbranded.png)
+![diagram 1 - API](https://res.cloudinary.com/practicaldev/image/fetch/s--E3_YHwqG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p2t8wl6ydtvv6x27fh2u.png)
 ![diagram 1 - API](https://res.cloudinary.com/practicaldev/image/fetch/s--E3_YHwqG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p2t8wl6ydtvv6x27fh2u.png)
 
 The endpoints URL is structured as `[base-path]/webhooks/<entity>`.
